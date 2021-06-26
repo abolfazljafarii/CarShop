@@ -108,3 +108,28 @@ body{
     clip-path: polygon(15% 0,85% 0,100% 100%,0 100%);
     font-size: 1rem;
 }
+.question{
+    background: url('../img/9.jpg') no-repeat fixed top;
+    background-size: cover;
+}
+.question-gray{
+    background: rgba(79,109,122,0.75);
+}
+.question-yellow{
+    background: rgba(277,181,5,0.75);
+}
+.question-icon{
+    font-size: 3rem;
+    color: var(--mainBlue);
+    transition: all 0.5s ease-in-out;
+}
+.question-icon:hover{
+    transform: translateY(-10%);
+    color: var(--mainBlue);
+}
+.question-title{
+    font-size: 1.3rem;
+}
+.question-description{
+    font-size: 1rem;
+}
