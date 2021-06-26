@@ -133,3 +133,52 @@ body{
 .question-description{
     font-size: 1rem;
 }
+.features{
+    background-color: var(--mainGrey);
+}
+.features-item{
+    background-color: var(--mainWhite);
+    border-radius: .5rem;
+    cursor: pointer;
+    opacity: .6;
+    transition: all .5s ease-in-out;
+}
+.features-item:hover{
+    transform: scale(1.05);
+    opacity: 1;
+}
+.features-icon{
+    font-size: 1.5rem;
+}
+.features-text-title{
+    font-size: 1.15rem;
+}
+.img-container{
+    background: var(--mainBlue);
+    position: relative;
+    overflow: hidden;
+}
+.features-photo{
+    transform: scale(1.2);
+    transition: all 1s ease-in-out;
+}
+.img-container:hover .features-photo{
+    transform: scale(1.6);
+    opacity: .7;
+}
+.features-link{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 3rem;
+    transform: translate(-50%, -50%);
+    color: var(--mainBlack);
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+.features-link:hover{
+    color: var(--mainWhite);
+}
+.img-container:hover .features-link{
+    opacity: 1;
+}
