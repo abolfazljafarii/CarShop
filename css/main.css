@@ -101,3 +101,10 @@ body{
     height: 0.3rem;
     margin: 1rem auto;
 }
+.inventory{
+    background-color: var(--mainGrey);
+}
+.car-value{
+    clip-path: polygon(15% 0,85% 0,100% 100%,0 100%);
+    font-size: 1rem;
+}
