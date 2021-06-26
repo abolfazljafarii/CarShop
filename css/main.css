@@ -271,3 +271,21 @@ body{
 .service-icon{
     font-size: 4rem;
 }
+.customer-card-body{
+    margin-top: -2.5rem !important;
+}
+@media screen and (min-width:420px)
+{
+    .customer-card-body{
+        margin-top: -3.8rem !important;
+    }
+}
+.customer-img{
+    border: 0.2rem solid var(--mainWhite);
+}
+.customer-icon{
+    font-size: 2rem;
+}
+.customer-quote{
+    max-width: 90%;
+}
