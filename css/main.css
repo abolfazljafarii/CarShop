@@ -1,36 +1,70 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 
 ::selection{
-  color: #40ACF1;
-  background-color: #292F36;
+    color: #40ACF1;
+    background-color: #292F36;
 }
 :root{
-  scrollbar-color: #40ACF1 #292F36;
-  scrollbar-width: thin !important;
+    scrollbar-color: #40ACF1 #292F36;
+    scrollbar-width: thin !important;
 }
 ::-webkit-scrollbar{
-  width: 10px;
+    width: 10px;
 }
 ::-webkit-scrollbar-track{
-  background-color: #292F36;
+    background-color: #292F36;
 }
 ::-webkit-scrollbar-thumb{
-  background-color: #40ACF1;
-  border-radius: 20px;
+    background-color: #40ACF1;
+    border-radius: 20px;
 }
 :root{
-  --mainBlue:#40ACF1;
-  --transparentBlue:rgba(64, 172, 241,0.7);
-  --mainWhite:#FFFFFF;
-  --mainBlack:#292F36;
-  --mainGrey:rgb(216, 214, 214);
-  --mainYellow:#e3b505;
+    --mainBlue:#40ACF1;
+    --transparentBlue:rgba(64, 172, 241,0.7);
+    --mainWhite:#FFFFFF;
+    --mainBlack:#292F36;
+    --mainGrey:rgb(216, 214, 214);
+    --mainYellow:#e3b505;
 }
 html{
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 body{
-  font-family: 'Roboto', sans-serif;
-  color: var(--mainBlack);
-  background: var(--mainWhite);
+    font-family: 'Roboto', sans-serif;
+    color: var(--mainBlack);
+    background: var(--mainWhite);
+}
+
+.navbar-icon{
+    font-size: 2rem;
+}
+.navbar-toggler{
+    outline-color: var(--mainBlue) !important;
+}
+.nav-icon, .nav-link{
+    transition: color .2s linear;
+}
+.nav-link{
+    color: var(--mainBlack);
+}
+.nav-link:hover{
+    color: var(--mainBlue);
+}
+.nav-icon{
+    font-size: 1.5rem;
+}
+.nav-icon:hover{
+    color: var(--mainBlack);
+}
+
+.preloader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+}
+.hidepreloader{
+    display: none !important;
 }
